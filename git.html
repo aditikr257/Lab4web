@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body{
+    background-image: url("https://www.aquaplusindia.net/theme3/img/background-deault.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  background-size: cover;
+  }
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+
+
+}
+th, td {
+  padding: 15px;
+  text-align: center;
+  color:  black;
+  font-size: 1.7em;
+
+}
+
+h1{
+  color: black;
+  text-align: center;
+  font-size: 3em;
+
+
+}
+h2{
+  margin-left: 100px;
+}
+p{
+  color:    #333333;
+  text-align: center;
+  font-size: 2em;
+
+
+}
+dt{
+  color: blue;
+  font-size: 1.5em;
+  font-family: sans-serif;
+  margin-left: 100px;
+
+}
+dd{
+  color: black;
+  font-size: 1.5em;
+  font-family: sans-serif;
+  margin-left: 150px;
+}
+ul{
+  color: black;
+  font-size: 1.5em;
+  font-family: sans-serif;
+  margin-left: 100px;
+}
+</style>
+</head>
+<body>
+
+<h1>Version Control System</h1>
+<p>Version control systems are a category of software tools that helps record changes to files by keeping a track of modifications done to the code.</p>
+<h2>Use of version control system:</h2>
+<dl>
+  <dt>1. A Repository</dt>
+  <dd>-  It can be thought as a database of changes. It contains all the
+    edits and historical versions (snapshots) of the project.</dd>
+  <dt>2. Copy of Work (sometimes called as checkout):</dt>
+  <dd>- It is the personal copy of all the files in a project.
+    You can edit to this copy, without affecting the work of others and
+     you can finally commit your changes to a repository when you are done making your changes.</dd>
+</dl>
+<h2>Types of Version Control</h2>
+<ul>
+  <li>Local Version Control Systems</li>
+  <li>Centralized Version Control Systems</li>
+  <li>Distributed Version Control Systems</li>
+</ul>
+<h1>Git and Github</h1>
+<p>Git is a distributed version control tool that can manage a development project's source code history, while GitHub is a cloud based platform built around the Git tool. Git is a tool a developer installs locally on their computer, while GitHub is an online service that stores code pushed to it from computers running the Git tool. </p>
+<p>The key difference between Git and GitHub is that Git is an open-source tool developers install locally to manage source code, while GitHub is an online service to which developers who use Git can connect and upload or download resources.</p>
+
+<h1>Basic Git commands</h1>
+<dl>
+  <dt>1.git init</dt>
+  <dd>- initializes a brand new Git repository and begins tracking an existing directory.
+    It adds a hidden subfolder within the existing directory that houses the
+    internal data structure required for version control.</dd>
+    <dt>2.git clone</dt>
+    <dd>- creates a local copy of a project that already exists remotely. The clone includes all the project’s files, history, and branches.</dd>
+   <dt>3.git add</dt>
+   <dd>- stages a change. Git tracks changes to a developer’s codebase, but it’s necessary to stage and take a snapshot of the changes to include them in the project’s history. This command performs staging, the first part of that two-step process. Any changes that are staged will become a part of the next snapshot and a part of the project’s history. </dd>
+   <dt>4.git commit</dt>
+   <dd>- saves the snapshot to the project history and completes the change-tracking process. In short, a commit functions like taking a photo. Anything that’s been staged with git add will become a part of the snapshot with git commit.</dd>
+   <dt>5.git pull</dt>
+   <dd>- updates the local line of development with updates from its remote counterpart. Developers use this command if a teammate has made commits to a branch on a remote, and they would like to reflect those changes in their local environment.</dd>
+
+
+</dl>
+
+</body>
+</html>
